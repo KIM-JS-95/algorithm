@@ -37,7 +37,7 @@ class Solution {
     		System.out.println("텍스트가 존재하지 않습니다.");
     	}else {
     		int len =0;
-    		for(int i=0; i<idx; i++)
+    		for(int i=0; i<idx; i++) {
     			len +=s1.substring(i,i+1).getBytes().length;  //바이트 형식으로 인코딩
     			len += s2.length();
     			
@@ -45,5 +45,6 @@ class Solution {
     			System.out.println("텍스트 : "+ s1);
     			System.out.printf(String.format("패턴 : %%%ds\n" , len),s2);
     		}
-    	}	
+    	}
     }
+}
