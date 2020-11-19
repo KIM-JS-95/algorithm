@@ -1,4 +1,4 @@
-package sibal;
+package algorithm;
 
 import java.util.*;
 class Solution {
