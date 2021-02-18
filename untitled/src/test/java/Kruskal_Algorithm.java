@@ -67,10 +67,8 @@ public class Kruskal_Algorithm {
         }
     }
 
-
     static class Edge implements Comparable<Edge> {
         int from, to, weight;
-
 
         public Edge(int from, int to, int weight) {
             super();
