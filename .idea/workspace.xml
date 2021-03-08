@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83532c98-6b33-4924-a2c2-5fbd136cc931" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/Kruskal_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/Kruskal_Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Find_A_Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/classes/java/test/Find_A_Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Prim_Algorithm$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/classes/java/test/Prim_Algorithm$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Prim_Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/classes/java/test/Prim_Algorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/Prim_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/Prim_Algorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +84,7 @@
       <recent name="C:\Users\JAESEUNG\IdeaProjects\algorithm\untitled\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Find_A_Path">
+  <component name="RunManager" selected="Application.word_change">
     <configuration name="Find_A_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Find_A_Path" />
       <module name="untitled.test" />
@@ -81,28 +92,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kruskal_Algorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kruskal_Algorithm" />
+    <configuration name="Network" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Network" />
       <module name="untitled.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.LIS" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Pro_Level2_developfunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pro_Level2_developfunc" />
+      <module name="untitled.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prim_Algorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prim_Algorithm" />
+    <configuration name="Target_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Target_number" />
+      <module name="untitled.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="word_change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="word_change" />
       <module name="untitled.test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,10 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.word_change" />
+        <item itemvalue="Application.Network" />
+        <item itemvalue="Application.Target_number" />
+        <item itemvalue="Application.Pro_Level2_developfunc" />
         <item itemvalue="Application.Find_A_Path" />
-        <item itemvalue="Application.Prim_Algorithm" />
-        <item itemvalue="Application.Kruskal_Algorithm" />
-        <item itemvalue="Application.LIS" />
       </list>
     </recent_temporary>
   </component>

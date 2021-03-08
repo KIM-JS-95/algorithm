@@ -5,6 +5,14 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
+/*
+
+3 3
+1 2 1
+2 3 2
+1 3 3
+
+ */
 public class Prim_Algorithm {
     static int V, E;
     static ArrayList<Node>[] adj;
