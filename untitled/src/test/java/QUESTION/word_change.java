@@ -1,3 +1,5 @@
+package QUESTION;
+
 public class word_change {
 
     static int minCnt = Integer.MAX_VALUE;

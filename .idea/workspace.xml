@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83532c98-6b33-4924-a2c2-5fbd136cc931" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boyer_Moore.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/Boyer_Moore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/KMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/LCS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LIS.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/LIS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfs.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/dfs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/Kruskal_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/Kruskal_Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/Prim_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/Prim_Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1000번" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/BACKJOON/1000번" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1330번" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/BACKJOON/1330번" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/back_2839.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/BACKJOON/back_2839.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,4 +1,4 @@
-//find a Path whit BFS or DFS
+package QUESTION;//find a Path whit BFS or DFS
 
 /*
     0
@@ -11,7 +11,6 @@
  */
 
 
-import java.awt.*;
 import java.util.LinkedList;
 
 class Graph {

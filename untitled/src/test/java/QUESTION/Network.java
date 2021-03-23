@@ -1,3 +1,5 @@
+package QUESTION;
+
 public class Network {
     static int answer =0;
     static void DFS(int node, boolean[] visit, int[][] computers){

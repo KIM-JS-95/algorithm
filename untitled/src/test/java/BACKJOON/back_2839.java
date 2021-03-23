@@ -1,4 +1,4 @@
-package algorithm.백준;
+package BACKJOON;
 
 import java.util.Scanner;
 
