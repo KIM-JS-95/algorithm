@@ -1,3 +1,4 @@
+package QUESTION;
 //DP algorithm example
 //최소한의 비용을 산출하라 단, 이동은 1칸 혹은 2칸만 가능하다.
 
@@ -12,9 +13,7 @@ public class MinCostClimbingStairs {
         return Math.min(case1, case2);
     }
     public static void main(String[] args){
-    int[] cost = new int[] {
-      10, 15, 20
-    };
+    int[] cost = new int[] {10, 15, 20};
     int result = minCost(cost);
         System.out.println("===============================");
     System.out.println("answer : " + result);
