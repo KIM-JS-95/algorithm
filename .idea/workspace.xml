@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83532c98-6b33-4924-a2c2-5fbd136cc931" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
@@ -13,20 +14,7 @@
       <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Distribute_Bonuses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Find_A_Path.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Graph$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Kruskal_Algorithm$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Kruskal_Algorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Network.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Prim_Algorithm$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Prim_Algorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Pro_Level2_developfunc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/Target_number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/word_change.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/MinCostClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/MinCostClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +64,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -92,6 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -104,14 +99,7 @@
       <recent name="C:\Users\JAESEUNG\IdeaProjects\algorithm\untitled\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Kruskal_Algorithm">
-    <configuration name="Distribute_Bonuses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QUESTION.Distribute_Bonuses" />
-      <module name="untitled.test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.back_11404">
     <configuration name="Kruskal_Algorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ALGORITHM.Kruskal_Algorithm" />
       <module name="untitled.test" />
@@ -164,13 +152,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="back_11404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BACKJOON.back_11404" />
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BACKJOON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.back_11404" />
         <item itemvalue="Application.Kruskal_Algorithm" />
         <item itemvalue="Application.RankSearch" />
         <item itemvalue="Application.MinCostClimbingStairs" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Distribute_Bonuses" />
       </list>
     </recent_temporary>
   </component>
