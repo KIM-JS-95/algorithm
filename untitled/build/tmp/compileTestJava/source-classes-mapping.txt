@@ -45,5 +45,7 @@ BACKJOON/back_11404.java
  BACKJOON.back_11404
 BACKJOON/back_2839.java
  BACKJOON.back_2839
+KAKAO/TaxiFares.java
+ KAKAO.TaxiFares
 QUESTION/SelectionSort.java
  SelectionSort
