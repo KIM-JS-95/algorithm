@@ -5,6 +5,8 @@ QUESTION/Robot_In_a_Grid.java
 ALGORITHM/Prim_Algorithm.java
  ALGORITHM.Prim_Algorithm
  ALGORITHM.Prim_Algorithm$Node
+QUESTION/SelectionSort.java
+ SelectionSort
 QUESTION/Pro_Level2_developfunc.java
  QUESTION.Pro_Level2_developfunc
 QUESTION/SortBignumber.java
@@ -47,5 +49,5 @@ BACKJOON/back_2839.java
  BACKJOON.back_2839
 KAKAO/TaxiFares.java
  KAKAO.TaxiFares
-QUESTION/SelectionSort.java
- SelectionSort
+KAKAO/AD_Insert.java
+ KAKAO.AD_Insert
