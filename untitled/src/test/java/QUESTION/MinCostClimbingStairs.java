@@ -1,6 +1,5 @@
 package QUESTION;
-//DP algorithm example
-//최소한의 비용을 산출하라 단, 이동은 1칸 혹은 2칸만 가능하다.
+
 
 public class MinCostClimbingStairs {
     public static int minCost(int[] cost) {
