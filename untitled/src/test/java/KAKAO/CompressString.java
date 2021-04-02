@@ -4,9 +4,10 @@ public class CompressString {
 
     public static void main(String[] args) {
 
-        String s = "aabbaccc";
+        String s = "abcabcabcabcdededededede";
 
-        solution(s);
+
+        System.out.println(solution(s));
     }
 
     public static int solution(String s) {

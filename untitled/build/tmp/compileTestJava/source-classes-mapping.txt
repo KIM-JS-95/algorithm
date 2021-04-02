@@ -1,3 +1,25 @@
+KAKAO/AD_Insert.java
+ KAKAO.AD_Insert
+QUESTION/Pro_Level2_developfunc.java
+ QUESTION.Pro_Level2_developfunc
+QUESTION/SortBignumber.java
+ SortBignumber
+ SortBignumber$1
+QUESTION/Distribute_Bonuses.java
+ QUESTION.Distribute_Bonuses
+QUESTION/MinCostClimbingStairs.java
+ QUESTION.MinCostClimbingStairs
+QUESTION/Quicksort.java
+ Quicksort
+ALGORITHM/Kruskal_Algorithm.java
+ ALGORITHM.Kruskal_Algorithm
+ ALGORITHM.Kruskal_Algorithm$Edge
+BACKJOON/back_11404.java
+ BACKJOON.back_11404
+KAKAO/TaxiFares.java
+ KAKAO.TaxiFares
+QUESTION/SelectionSort.java
+ SelectionSort
 QUESTION/Robot_In_a_Grid.java
  Point
  Robot_In_a_Grid
@@ -5,18 +27,11 @@ QUESTION/Robot_In_a_Grid.java
 ALGORITHM/Prim_Algorithm.java
  ALGORITHM.Prim_Algorithm
  ALGORITHM.Prim_Algorithm$Node
-KAKAO/AD_Insert.java
- KAKAO.AD_Insert
 KAKAO/PairCard.java
  KAKAO.PairCard
  KAKAO.Point
-QUESTION/Pro_Level2_developfunc.java
- QUESTION.Pro_Level2_developfunc
-QUESTION/SelectionSort.java
- SelectionSort
-QUESTION/SortBignumber.java
- SortBignumber
- SortBignumber$1
+KAKAO/CompressString.java
+ KAKAO.CompressString
 BACKJOON/back_1000.java
  BACKJOON.back_1000
  BACKJOON.back_1000$MyInterface
@@ -24,8 +39,6 @@ KAKAO/RankSearch.java
  KAKAO.RankSearch
 QUESTION/Target_number.java
  QUESTION.Target_number
-QUESTION/Distribute_Bonuses.java
- QUESTION.Distribute_Bonuses
 QUESTION/MergeSort.java
  MergeSort
 QUESTION/Kth_number.java
@@ -34,25 +47,14 @@ QUESTION/Find_A_Path.java
  QUESTION.Find_A_Path
  QUESTION.Graph
  QUESTION.Graph$Node
-QUESTION/MinCostClimbingStairs.java
- QUESTION.MinCostClimbingStairs
 QUESTION/Network.java
  QUESTION.Network
 BACKJOON/back_1330.java
  BACKJOON.back_1330
  BACKJOON.back_1330$MyInterface
-QUESTION/Quicksort.java
- Quicksort
 QUESTION/word_change.java
  QUESTION.word_change
-ALGORITHM/Kruskal_Algorithm.java
- ALGORITHM.Kruskal_Algorithm
- ALGORITHM.Kruskal_Algorithm$Edge
-BACKJOON/back_11404.java
- BACKJOON.back_11404
 BACKJOON/back_2839.java
  BACKJOON.back_2839
-KAKAO/TaxiFares.java
- KAKAO.TaxiFares
-KAKAO/CompressString.java
- KAKAO.CompressString
+KAKAO/Parentheses_transform.java
+ KAKAO.Parentheses_transform
