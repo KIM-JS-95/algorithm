@@ -12,6 +12,8 @@ KAKAO/PairCard.java
  KAKAO.Point
 QUESTION/Pro_Level2_developfunc.java
  QUESTION.Pro_Level2_developfunc
+QUESTION/SelectionSort.java
+ SelectionSort
 QUESTION/SortBignumber.java
  SortBignumber
  SortBignumber$1
@@ -52,5 +54,5 @@ BACKJOON/back_2839.java
  BACKJOON.back_2839
 KAKAO/TaxiFares.java
  KAKAO.TaxiFares
-QUESTION/SelectionSort.java
- SelectionSort
+KAKAO/CompressString.java
+ KAKAO.CompressString
