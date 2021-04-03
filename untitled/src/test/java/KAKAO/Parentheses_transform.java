@@ -11,6 +11,7 @@ public class Parentheses_transform {
     }
 
     private static int pos = 0;
+
     private static String solution(String q) {
         if (q.isEmpty()) return q;
 
@@ -19,17 +20,17 @@ public class Parentheses_transform {
         String u = q.substring(0, pos);
         String v = q.substring(pos, q.length());
 
-        if(correct){
-            return u+solution(v);
+        if (correct) {
+            return u + solution(v);
         }
 
         String answer = "(" + solution(v) + ")";
 
-        for(int i=1; i<u.length()-1; i++){
-            if(u.charAt(i)=='(')
+        for (int i = 1; i < u.length() - 1; i++) {
+            if (u.charAt(i) == '(')
                 answer += ")";
             else
-                answer +="(";
+                answer += "(";
         }
         return answer;
     }

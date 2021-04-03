@@ -14,7 +14,7 @@ package QUESTION;//find a Path whit BFS or DFS
 import java.util.LinkedList;
 
 class Graph {
-    class Node {
+    public class Node {
         int data;
         boolean marked;
         LinkedList<Node> adjaction;

@@ -1,3 +1,5 @@
+KAKAO/Solution1.java
+ KAKAO.Solution1
 KAKAO/AD_Insert.java
  KAKAO.AD_Insert
 QUESTION/Pro_Level2_developfunc.java
@@ -7,6 +9,8 @@ QUESTION/SortBignumber.java
  SortBignumber$1
 QUESTION/Distribute_Bonuses.java
  QUESTION.Distribute_Bonuses
+KAKAO/Solution2.java
+ KAKAO.Solution2
 QUESTION/MinCostClimbingStairs.java
  QUESTION.MinCostClimbingStairs
 QUESTION/Quicksort.java
@@ -20,6 +24,8 @@ KAKAO/TaxiFares.java
  KAKAO.TaxiFares
 QUESTION/SelectionSort.java
  SelectionSort
+KAKAO/Lock_and_Key.java
+ KAKAO.Lock_and_Key
 QUESTION/Robot_In_a_Grid.java
  Point
  Robot_In_a_Grid
@@ -39,6 +45,10 @@ KAKAO/RankSearch.java
  KAKAO.RankSearch
 QUESTION/Target_number.java
  QUESTION.Target_number
+ALGORITHM/DFS.java
+ ALGORITHM.DFS
+KAKAO/Solution3.java
+ KAKAO.Solution3
 QUESTION/MergeSort.java
  MergeSort
 QUESTION/Kth_number.java
@@ -54,7 +64,7 @@ BACKJOON/back_1330.java
  BACKJOON.back_1330$MyInterface
 QUESTION/word_change.java
  QUESTION.word_change
-BACKJOON/back_2839.java
- BACKJOON.back_2839
 KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
+BACKJOON/back_2839.java
+ BACKJOON.back_2839

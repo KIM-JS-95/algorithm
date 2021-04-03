@@ -6,16 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="83532c98-6b33-4924-a2c2-5fbd136cc931" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/KAKAO/CompressString.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/classes/java/test/KAKAO/CompressString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/KAKAO/CompressString.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/KAKAO/CompressString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/dfs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/KAKAO/Parentheses_transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/KAKAO/Parentheses_transform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/Find_A_Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/Find_A_Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/Network.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,9 +94,9 @@
       <recent name="C:\Users\JAESEUNG\IdeaProjects\algorithm\untitled\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Parentheses_transform">
-    <configuration name="AD_Insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.AD_Insert" />
+  <component name="RunManager" selected="Application.Solution3">
+    <configuration name="Lock_and_Key" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.Lock_and_Key" />
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
@@ -114,25 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.CompressString" />
+    <configuration name="Network" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QUESTION.Network" />
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PairCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.PairCard" />
-      <module name="untitled.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.*" />
+          <option name="PATTERN" value="QUESTION.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,8 +134,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PiarCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.PiarCard" />
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.Solution1" />
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.Solution3" />
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Network" />
+        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution1" />
+        <item itemvalue="Application.Lock_and_Key" />
         <item itemvalue="Application.Parentheses_transform" />
-        <item itemvalue="Application.CompressString" />
-        <item itemvalue="Application.PairCard" />
-        <item itemvalue="Application.PiarCard" />
-        <item itemvalue="Application.AD_Insert" />
       </list>
     </recent_temporary>
   </component>

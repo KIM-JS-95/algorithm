@@ -2,6 +2,7 @@ package QUESTION;
 
 public class Network {
     static int answer =0;
+
     static void DFS(int node, boolean[] visit, int[][] computers){
         visit[node] = true;
         for(int i=0; i<computers.length; i++){
