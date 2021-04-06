@@ -1,5 +1,7 @@
 KAKAO/Solution1.java
  KAKAO.Solution1
+BACKJOON/back_2839.java
+ BACKJOON.back_2839
 KAKAO/AD_Insert.java
  KAKAO.AD_Insert
 QUESTION/Pro_Level2_developfunc.java
@@ -66,5 +68,5 @@ QUESTION/word_change.java
  QUESTION.word_change
 KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
-BACKJOON/back_2839.java
- BACKJOON.back_2839
+KAKAO/NewsClusterring.java
+ KAKAO.NewsClusterring

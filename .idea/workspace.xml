@@ -6,10 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="83532c98-6b33-4924-a2c2-5fbd136cc931" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/ALGORITHM/dfs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/KAKAO/Parentheses_transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/KAKAO/Parentheses_transform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/Find_A_Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/Find_A_Path.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/QUESTION/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/KAKAO/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/classes/java/test/KAKAO/Solution3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +99,7 @@
       <recent name="C:\Users\JAESEUNG\IdeaProjects\algorithm\untitled\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution3">
+  <component name="RunManager" selected="Application.NewsClusterring">
     <configuration name="Lock_and_Key" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.Lock_and_Key" />
       <module name="untitled.test" />
@@ -121,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parentheses_transform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.Parentheses_transform" />
+    <configuration name="NewsClusterring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.NewsClusterring" />
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewsClusterring" />
         <item itemvalue="Application.Network" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Lock_and_Key" />
-        <item itemvalue="Application.Parentheses_transform" />
       </list>
     </recent_temporary>
   </component>
