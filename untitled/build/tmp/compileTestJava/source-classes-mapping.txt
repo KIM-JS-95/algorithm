@@ -1,7 +1,7 @@
 KAKAO/Solution1.java
  KAKAO.Solution1
-BACKJOON/back_2839.java
- BACKJOON.back_2839
+KAKAO/NewsClusterring.java
+ KAKAO.NewsClusterring
 KAKAO/AD_Insert.java
  KAKAO.AD_Insert
 QUESTION/Pro_Level2_developfunc.java
@@ -47,6 +47,8 @@ KAKAO/RankSearch.java
  KAKAO.RankSearch
 QUESTION/Target_number.java
  QUESTION.Target_number
+BACKJOON/back_2839.java
+ BACKJOON.back_2839
 ALGORITHM/DFS.java
  ALGORITHM.DFS
 KAKAO/Solution3.java
@@ -68,5 +70,5 @@ QUESTION/word_change.java
  QUESTION.word_change
 KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
-KAKAO/NewsClusterring.java
- KAKAO.NewsClusterring
+KAKAO/Friends4Block.java
+ KAKAO.Friends4Block
