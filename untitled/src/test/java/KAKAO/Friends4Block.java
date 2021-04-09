@@ -67,4 +67,3 @@ public class Friends4Block {
         return answer;
     }
 }
-fff
