@@ -74,3 +74,5 @@ KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
 KAKAO/Chache.java
  KAKAO.Chache
+KAKAO/map.java
+ KAKAO.map

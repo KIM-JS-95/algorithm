@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83532c98-6b33-4924-a2c2-5fbd136cc931" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/test/java/KAKAO/Friends4Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/test/java/KAKAO/Friends4Block.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +90,7 @@
       <recent name="C:\Users\JAESEUNG\IdeaProjects\algorithm\untitled\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chache">
+  <component name="RunManager" selected="Application.map">
     <configuration name="Chache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.Chache" />
       <module name="untitled.test" />
@@ -147,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.Solution3" />
+    <configuration name="map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.map" />
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.map" />
         <item itemvalue="Application.Chache" />
         <item itemvalue="Application.Friends4Block" />
         <item itemvalue="Application.NewsClusterring" />
         <item itemvalue="Application.Network" />
-        <item itemvalue="Application.Solution3" />
       </list>
     </recent_temporary>
   </component>
