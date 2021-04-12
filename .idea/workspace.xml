@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83532c98-6b33-4924-a2c2-5fbd136cc931" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
@@ -16,6 +17,9 @@
       <change beforePath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/build/classes/java/test/KAKAO/map.class" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/classes/java/test/KAKAO/map.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> b543896ea26f886744eff104b30e096416d07750
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +104,11 @@
       <recent name="C:\Users\JAESEUNG\IdeaProjects\algorithm\untitled\src\test\java" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Openchat">
+=======
+  <component name="RunManager" selected="Application.map">
+>>>>>>> b543896ea26f886744eff104b30e096416d07750
     <configuration name="Chache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.Chache" />
       <module name="untitled.test" />
@@ -168,11 +176,18 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.Openchat" />
+=======
+>>>>>>> b543896ea26f886744eff104b30e096416d07750
         <item itemvalue="Application.map" />
         <item itemvalue="Application.Chache" />
         <item itemvalue="Application.Friends4Block" />
         <item itemvalue="Application.NewsClusterring" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="Application.Network" />
+>>>>>>> b543896ea26f886744eff104b30e096416d07750
       </list>
     </recent_temporary>
   </component>
