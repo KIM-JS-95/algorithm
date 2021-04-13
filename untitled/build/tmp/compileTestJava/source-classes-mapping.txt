@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
-BACKJOON/back_2839.java
- BACKJOON.back_2839
+KAKAO/Chache.java
+ KAKAO.Chache
 KAKAO/Solution1.java
  KAKAO.Solution1
 KAKAO/NewsClusterring.java
@@ -15,6 +13,8 @@ QUESTION/SortBignumber.java
  SortBignumber$1
 QUESTION/Distribute_Bonuses.java
  QUESTION.Distribute_Bonuses
+KAKAO/Openchat.java
+ KAKAO.Openchat
 KAKAO/Solution2.java
  KAKAO.Solution2
 QUESTION/MinCostClimbingStairs.java
@@ -26,6 +26,8 @@ ALGORITHM/Kruskal_Algorithm.java
  ALGORITHM.Kruskal_Algorithm$Edge
 BACKJOON/back_11404.java
  BACKJOON.back_11404
+BACKJOON/back_2839.java
+ BACKJOON.back_2839
 KAKAO/TaxiFares.java
  KAKAO.TaxiFares
 QUESTION/SelectionSort.java
@@ -44,6 +46,8 @@ KAKAO/PairCard.java
  KAKAO.Point
 KAKAO/CompressString.java
  KAKAO.CompressString
+KAKAO/map.java
+ KAKAO.map
 BACKJOON/back_1000.java
  BACKJOON.back_1000
  BACKJOON.back_1000$MyInterface
@@ -74,8 +78,5 @@ QUESTION/word_change.java
  QUESTION.word_change
 KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
-KAKAO/Chache.java
- KAKAO.Chache
-KAKAO/map.java
- KAKAO.map
->>>>>>> b543896ea26f886744eff104b30e096416d07750
+KAKAO/Failure_rate.java
+ KAKAO.Failure_rate
