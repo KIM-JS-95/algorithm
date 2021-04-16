@@ -80,3 +80,6 @@ KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
 KAKAO/Failure_rate.java
  KAKAO.Failure_rate
+KAKAO/EntryKey.java
+ KAKAO.EntryKey
+ KAKAO.EntryKey$1
