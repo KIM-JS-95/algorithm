@@ -78,8 +78,10 @@ QUESTION/word_change.java
  QUESTION.word_change
 KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
-KAKAO/Failure_rate.java
- KAKAO.Failure_rate
 KAKAO/EntryKey.java
  KAKAO.EntryKey
  KAKAO.EntryKey$1
+KAKAO/Failure_rate.java
+ KAKAO.Failure_rate
+KAKAO/ThatSong.java
+ KAKAO.ThatSong
