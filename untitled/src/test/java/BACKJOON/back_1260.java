@@ -1,51 +1,72 @@
 package BACKJOON;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class back_1260 {
 
-
-    public static int[] arr;
-    public static boolean[] visit;
-    public static StringBuilder sb = new StringBuilder();
+    static int[][] arr;
+    static boolean[] visit;
+    static int N;
+    static int M;
+    static int V;
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br1.readLine());
 
-        int N = Integer.parseInt(st.nextToken()); //node
-        int M = Integer.parseInt(st.nextToken()); // edge
-        int V = Integer.parseInt(st.nextToken()); //start
+        N = Integer.parseInt(st.nextToken()); //node
+        M = Integer.parseInt(st.nextToken()); // edge
+        V = Integer.parseInt(st.nextToken()); //start
 
+        arr = new int[1001][1001];
+        visit = new boolean[1001];
 
-        arr = new int[M];
-        visit = new boolean[N];
+        for (int i = 0; i < M; i++) {
+            Scanner sc = new Scanner(System.in);
+            int x = sc.nextInt();
+            int y = sc.nextInt();
 
-        dfs(N,M,0);
+            arr[x][y] = arr[y][x]=1;
+        }
+        dfs(V);
 
-        System.out.println(sb);
+        visit = new boolean[1001];
+        System.out.println();
 
+        bfs();
     }
 
-    public static void dfs(int N, int M, int depth){
-        if( depth == M){
-            for(int val : arr)
-                sb.append(val).append(' ');
+    public static void dfs(int V) {
 
-            sb.append('\n');
-            return;
-        }
-        for(int i=0; i<N; i++){
-            if(!visit[i]){
-                visit[i]=true;
-                arr[depth] = i+1;
-                dfs(N,M,depth+1);
-                visit[i] = false;
+        visit[V] = true;
+        System.out.print(V + " ");
+
+        for(int i=1; i<=N; i++){
+            if(arr[V][i] ==1 && visit[i]== false){
+                dfs(i);
             }
         }
     }
 
+    public static void bfs() {
+        Queue<Integer>  queue = new LinkedList<>();
+
+        queue.offer(V);
+        visit[V] = true;
+        System.out.print(V + " ");
+
+        while(!queue.isEmpty()){
+            int temp = queue.poll();
+
+            for(int i=1; i<=N; i++){
+                if(arr[temp][i]==1 && visit[i]==false){
+                    queue.offer(i);
+                    visit[i]=true;
+
+                    System.out.print(i + " ");
+                }
+            }
+        }
+    }
 }
