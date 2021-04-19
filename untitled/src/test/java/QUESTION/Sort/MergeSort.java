@@ -1,3 +1,5 @@
+package QUESTION.Sort;
+
 public class MergeSort {
     private static void mergeSort(int[] arr){
         int[] tmp = new int[arr.length];
