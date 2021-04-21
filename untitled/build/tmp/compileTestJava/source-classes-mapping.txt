@@ -34,10 +34,8 @@ KAKAO/Failure_rate.java
  KAKAO.Failure_rate
 KAKAO/Lock_and_Key.java
  KAKAO.Lock_and_Key
-QUESTION/Robot_In_a_Grid.java
- Point
- Robot_In_a_Grid
- Solution
+BACKJOON/back_9251.java
+ BACKJOON.back_9251
 ALGORITHM/Prim_Algorithm.java
  ALGORITHM.Prim_Algorithm
  ALGORITHM.Prim_Algorithm$Node
@@ -89,5 +87,10 @@ QUESTION/Sort/SelectionSort.java
  QUESTION.Sort.SelectionSort
 BACKJOON/back_1260.java
  BACKJOON.back_1260
-BACKJOON/back_9251.java
- BACKJOON.back_9251
+BACKJOON/back_2178.java
+ BACKJOON.Point
+ BACKJOON.back_2178
+QUESTION/Robot_In_a_Grid.java
+ QUESTION.Point
+ QUESTION.Robot_In_a_Grid
+ QUESTION.Solution
