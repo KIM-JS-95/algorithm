@@ -41,8 +41,8 @@ public class back_2178 {
 
     public static void bfs(int x, int y) {
 
-        int[] xd = {-1, 0, 1, 0};
-        int[] yd = {0, -1, 0, 1};
+        int[] xd = {-1, 1, 0, 0};
+        int[] yd = {0, 0, 1, -1};
         Queue<Dot> q = new LinkedList<Dot>();
         q.add(new Dot(x, y));
 
@@ -54,15 +54,25 @@ public class back_2178 {
                 int nextY = d.y + yd[i];
 
                 if (nextX < 0 || nextY < 0 || nextX >= N || nextY >= M) {
+                   // System.out.println(nextX +" "+nextY);
                     continue;
                 }
-                if (flag[nextX][nextY] || grid[nextX][nextY] == 0) {
+                if (flag[nextX][nextY] || (grid[nextX][nextY] == 0) ) {
                     continue;
                 }
 
                 q.add(new Dot(nextX,nextY));
 
                 grid[nextX][nextY] = grid[d.x][d.y]+1;
+
+                for(int a=0; a< grid.length; a++){
+                    for(int b=0; b< grid[a].length; b++){
+                        System.out.printf("%5d",grid[a][b]);
+                    }
+                    System.out.println();
+                }
+                System.out.println();
+
 
                 flag[nextX][nextY] = true;
             }
