@@ -92,4 +92,5 @@ QUESTION/word_change.java
 KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
 BACKJOON/back_2178.java
+ BACKJOON.Dot
  BACKJOON.back_2178
