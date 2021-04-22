@@ -1,35 +1,61 @@
 package BACKJOON;
 
-import java.util.Scanner;
 
-class Point{
-    int row;
-    int col;
-    Point(int row, int col) {
-        this.row = row;
-        this.col = col;
-    }
-}
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
+
 
 public class back_2178 {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static int N;
+    public static int M;
 
-        int N = sc.nextInt();
-        int M = sc.nextInt();
+    public static int[][] grid;
+    public static boolean[][] flag;
 
-        char[][] arr =new char[N][M];
-        boolean[][] flag = new boolean[N][M];
+    public static void main(String[] args) throws IOException {
+       Scanner sc = new Scanner(System.in);
 
-        for(int i=0; i<N; i++){
+        N = sc.nextInt();
+        M = sc.nextInt();
+
+
+        grid = new int[N][M];
+        flag = new boolean[N][M];
+
+        for (int i=0; i<N; i++) {
             String temp = sc.next();
-            for(int j=0; j<M; j++){
-                arr[i][j] = temp.charAt(j);
-            }
+            for (int j=0; j<M; j++) {
+                grid[i][j] = temp.charAt(j) - 48; // ASCII Code 48~57 (숫자) 문자를 숫자로 변환
+                 }
         }
 
 
 
+        bfs(0,0);
+
     }
+
+    public static void bfs(int x, int y){
+        Queue<Integer> row = new LinkedList<>();
+        Queue<Integer> col = new LinkedList<>();
+
+        row.add(x);
+        col.add(y);
+
+        while(!row.isEmpty() && !col.isEmpty()){
+            x = row.poll();
+            y = col.poll();
+            flag[x][y] = true;
+
+            for(int i=0; i< 4 ; i++){
+
+            }
+        }
+    }
+
+
 }
+
