@@ -10,6 +10,8 @@ ALGORITHM/preflex.java
  ALGORITHM.preflex
 KAKAO/Solution1.java
  KAKAO.Solution1
+BACKJOON/back_1918.java
+ BACKJOON.back_1918
 KAKAO/NewsClusterring.java
  KAKAO.NewsClusterring
 KAKAO/AD_Insert.java
@@ -33,6 +35,8 @@ KAKAO/Solution2.java
  KAKAO.Solution2
 QUESTION/MinCostClimbingStairs.java
  QUESTION.MinCostClimbingStairs
+BACKJOON/back_2839.java
+ BACKJOON.back_2839
 ALGORITHM/Kruskal_Algorithm.java
  ALGORITHM.Kruskal_Algorithm
  ALGORITHM.Kruskal_Algorithm$Edge
@@ -101,7 +105,5 @@ QUESTION/word_change.java
  QUESTION.word_change
 KAKAO/Parentheses_transform.java
  KAKAO.Parentheses_transform
-BACKJOON/back_2839.java
- BACKJOON.back_2839
-BACKJOON/back_1978.java
- BACKJOON.back_1978
+BACKJOON/back_12865.java
+ BACKJOON.back_12865
