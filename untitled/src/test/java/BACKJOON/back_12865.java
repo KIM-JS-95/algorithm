@@ -1,11 +1,10 @@
 package BACKJOON;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class back_12865 {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -16,7 +15,7 @@ public class back_12865 {
 
         int[][] dp = new int[n+1][k+1];
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 1; i <= n; i++) {
             w[i] = sc.nextInt();
             v[i] = sc.nextInt();
         }
@@ -30,8 +29,6 @@ public class back_12865 {
             }
         }
         System.out.println(dp[n][k]);
-
-
     }
 
 }
