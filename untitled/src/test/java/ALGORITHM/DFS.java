@@ -1,34 +1,37 @@
 package ALGORITHM;
 
+import java.util.Scanner;
+
 public class DFS {
-    static int answer = 0;
+    static int[][] Graph = new int[10][10];
+    static boolean[] flag = new boolean[10];
+    static int N;
+    static int E;
 
-    public int solution(int[] numbers, int target) {
-        DFS(numbers, target, 0);
-        return answer;
-    }
+    public static void main(String[] args) {
+        Scanner sc  = new Scanner(System.in);
+        N = sc.nextInt();
+        E = sc.nextInt();
 
-    public static void DFS(int[] numbers, int target, int node) {
-        if (node == numbers.length) {
-            int sum = 0;
-            int[] var7 = numbers;
-            int var6 = numbers.length;
-
-            for(int var5 = 0; var5 < var6; ++var5) {
-                int num = var7[var5];
-                sum += num;
-            }
-
-            if (sum == target) {
-                ++answer;
-            }
-        } else {
-            numbers[node] *= 1;
-            DFS(numbers, target, node + 1);
-            numbers[node] *= 1;
-            DFS(numbers, target, node + 1);
+        for(int i=0; i<E; i++){
+            int u = sc.nextInt();
+            int v = sc.nextInt();
+            Graph[u][v] = Graph[v][u] =1;
         }
-
+        DFS(0);
     }
+
+    public static void DFS(int node) {
+        flag[node] =true;
+        System.out.print(node + " ");
+
+        for(int i=0; i<N; i++)
+        if(!flag[i] && Graph[node][i]!=0){
+            DFS(i);
+        }
+    }
+
+
+
 
 }
