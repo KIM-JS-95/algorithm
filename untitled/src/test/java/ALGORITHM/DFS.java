@@ -1,6 +1,7 @@
 package ALGORITHM;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class DFS {
     static int[][] Graph = new int[10][10];
@@ -19,6 +20,7 @@ public class DFS {
             Graph[u][v] = Graph[v][u] =1;
         }
         DFS(0);
+        DFS_stack(0);
     }
 
     public static void DFS(int node) {
@@ -31,7 +33,27 @@ public class DFS {
         }
     }
 
+    public static void DFS_stack(int node) {
+      boolean[] visit = new boolean[10];
 
+        Stack<Integer> stack = new Stack<>();
+        stack.push(node);
+
+        while(!stack.isEmpty()){
+            int curr = stack.pop();
+
+            if(visit[curr]) continue;
+
+            visit[curr] = true;
+            System.out.print(curr + " ");
+
+            for(int i = 0; i<N; i++){
+                if(!visit[i] && Graph[curr][i]!= 0){
+                    stack.push(i);
+                }
+            }
+        }
+    }
 
 
 }
