@@ -7,6 +7,9 @@ ALGORITHM/preflex.java
  ALGORITHM.preflex
 BACKJOON/back_1918.java
  BACKJOON.back_1918
+BACKJOON/back_3197.java
+ BACKJOON.back_3197
+ BACKJOON.back_3197$Node
 KAKAO/AD_Insert.java
  KAKAO.AD_Insert
 BACKJOON/back_9251.java
@@ -28,6 +31,8 @@ BACKJOON/back_2331.java
  BACKJOON.back_2331
 BACKJOON/back_10451.java
  BACKJOON.back_10451
+BACKJOON/back_11053.java
+ BACKJOON.back_11053
 QUESTION/Sort/Quicksort.java
  QUESTION.Sort.Quicksort
 KAKAO/Lock_and_Key.java
@@ -71,6 +76,8 @@ QUESTION/Distribute_Bonuses.java
 KAKAO/EntryKey.java
  KAKAO.EntryKey
  KAKAO.EntryKey$1
+QUESTION/word_change.java
+ QUESTION.word_change
 KAKAO/Solution2.java
  KAKAO.Solution2
 QUESTION/MinCostClimbingStairs.java
@@ -99,10 +106,14 @@ KAKAO/ThatSong.java
  KAKAO.ThatSong
 QUESTION/Target_number.java
  QUESTION.Target_number
+ALGORITHM/LIS.java
+ ALGORITHM.LIS
 ALGORITHM/DFS.java
  ALGORITHM.DFS
 KAKAO/Solution3.java
  KAKAO.Solution3
+BACKJOON/back_11055.java
+ BACKJOON.back_11055
 BACKJOON/back_1260.java
  BACKJOON.back_1260
 QUESTION/Flood_fill.java
@@ -110,8 +121,5 @@ QUESTION/Flood_fill.java
  QUESTION.Flood_fill$Point
 QUESTION/Network.java
  QUESTION.Network
-QUESTION/word_change.java
- QUESTION.word_change
-BACKJOON/back_3197.java
- BACKJOON.back_3197
- BACKJOON.back_3197$Node
+BACKJOON/back_3745.java
+ BACKJOON.back_3745
