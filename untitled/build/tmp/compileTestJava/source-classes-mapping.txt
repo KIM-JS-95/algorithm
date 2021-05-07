@@ -123,3 +123,6 @@ QUESTION/Network.java
  QUESTION.Network
 BACKJOON/back_3745.java
  BACKJOON.back_3745
+BACKJOON/back_1922.java
+ BACKJOON.back_1922
+ BACKJOON.back_1922$edge
