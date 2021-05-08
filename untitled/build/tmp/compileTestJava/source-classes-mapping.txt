@@ -37,6 +37,9 @@ QUESTION/Sort/Quicksort.java
  QUESTION.Sort.Quicksort
 KAKAO/Lock_and_Key.java
  KAKAO.Lock_and_Key
+BACKJOON/back_1922.java
+ BACKJOON.back_1922
+ BACKJOON.back_1922$edge
 ALGORITHM/Prim_Algorithm.java
  ALGORITHM.Prim_Algorithm
  ALGORITHM.Prim_Algorithm$Node
@@ -71,13 +74,15 @@ KAKAO/NewsClusterring.java
  KAKAO.NewsClusterring
 QUESTION/Pro_Level2_developfunc.java
  QUESTION.Pro_Level2_developfunc
+QUESTION/word_change.java
+ QUESTION.word_change
 QUESTION/Distribute_Bonuses.java
  QUESTION.Distribute_Bonuses
 KAKAO/EntryKey.java
  KAKAO.EntryKey
  KAKAO.EntryKey$1
-QUESTION/word_change.java
- QUESTION.word_change
+BACKJOON/back_3745.java
+ BACKJOON.back_3745
 KAKAO/Solution2.java
  KAKAO.Solution2
 QUESTION/MinCostClimbingStairs.java
@@ -121,8 +126,8 @@ QUESTION/Flood_fill.java
  QUESTION.Flood_fill$Point
 QUESTION/Network.java
  QUESTION.Network
-BACKJOON/back_3745.java
- BACKJOON.back_3745
-BACKJOON/back_1922.java
- BACKJOON.back_1922
- BACKJOON.back_1922$edge
+KAKAO/kakaonum1.java
+ KAKAO.kakaonum1
+KAKAO/kakaonum2.java
+ KAKAO.kakaonum2
+ KAKAO.kakaonum2$Node
