@@ -14,6 +14,8 @@ KAKAO/AD_Insert.java
  KAKAO.AD_Insert
 BACKJOON/back_9251.java
  BACKJOON.back_9251
+QUESTION/word_change.java
+ QUESTION.word_change
 QUESTION/Sort/MergeSort.java
  QUESTION.Sort.MergeSort
 QUESTION/Sort/SelectionSort.java
@@ -58,6 +60,9 @@ QUESTION/Find_A_Path.java
  QUESTION.Find_A_Path
  QUESTION.Graph
  QUESTION.Graph$Node
+KAKAO/kakaonum2.java
+ KAKAO.kakaonum2
+ KAKAO.kakaonum2$Node
 BACKJOON/back_1330.java
  BACKJOON.back_1330
  BACKJOON.back_1330$MyInterface
@@ -74,8 +79,8 @@ KAKAO/NewsClusterring.java
  KAKAO.NewsClusterring
 QUESTION/Pro_Level2_developfunc.java
  QUESTION.Pro_Level2_developfunc
-QUESTION/word_change.java
- QUESTION.word_change
+KAKAO/kakaonum1.java
+ KAKAO.kakaonum1
 QUESTION/Distribute_Bonuses.java
  QUESTION.Distribute_Bonuses
 KAKAO/EntryKey.java
@@ -126,8 +131,7 @@ QUESTION/Flood_fill.java
  QUESTION.Flood_fill$Point
 QUESTION/Network.java
  QUESTION.Network
-KAKAO/kakaonum1.java
- KAKAO.kakaonum1
-KAKAO/kakaonum2.java
- KAKAO.kakaonum2
- KAKAO.kakaonum2$Node
+QUESTION/num1.java
+ QUESTION.num1
+QUESTION/num2.java
+ QUESTION.num2
