@@ -14,10 +14,12 @@ KAKAO/AD_Insert.java
  KAKAO.AD_Insert
 BACKJOON/back_9251.java
  BACKJOON.back_9251
-QUESTION/word_change.java
- QUESTION.word_change
+QUESTION/num1.java
+ QUESTION.num1
 QUESTION/Sort/MergeSort.java
  QUESTION.Sort.MergeSort
+QUESTION/num2.java
+ QUESTION.num2
 QUESTION/Sort/SelectionSort.java
  QUESTION.Sort.SelectionSort
 KAKAO/Openchat.java
@@ -131,7 +133,7 @@ QUESTION/Flood_fill.java
  QUESTION.Flood_fill$Point
 QUESTION/Network.java
  QUESTION.Network
-QUESTION/num1.java
- QUESTION.num1
-QUESTION/num2.java
- QUESTION.num2
+QUESTION/word_change.java
+ QUESTION.word_change
+QUESTION/N_Express.java
+ QUESTION.N_Express
