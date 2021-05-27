@@ -3,8 +3,6 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="untitled" target="15" />
-      <module name="untitled.main" target="15" />
-      <module name="untitled.test" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

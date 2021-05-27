@@ -137,3 +137,13 @@ QUESTION/word_change.java
  QUESTION.word_change
 QUESTION/N_Express.java
  QUESTION.N_Express
+ThisCoTe/NumCardplay.java
+ ThisCoTe.NumCardplay
+ThisCoTe/UntilOne.java
+ ThisCoTe.UntilOne
+ThisCoTe/UpDownLeftRight.java
+ ThisCoTe.UpDownLeftRight
+ThisCoTe/Time.java
+ ThisCoTe.Time
+ThisCoTe/KingdomNight.java
+ ThisCoTe.KingdomNight
