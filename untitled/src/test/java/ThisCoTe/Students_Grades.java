@@ -28,7 +28,6 @@ public class Students_Grades {
                 arr[i-1] = temp;
             }
         }
-
         String[] name = new String[n];
 
         for(int i=0;i<n;i++) {
