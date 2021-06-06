@@ -1,5 +1,15 @@
 package ThisCoTe;
 
+
+// In order to loot the food storage without being caught by scouts,
+// the food storage must be mined at least one square away.
+// Find the Max value of food you can get.
+
+// ex) n = 4
+//     arr = {1,3,1,5}
+//     return = 8
+
+
 import java.util.Scanner;
 
 public class AntWorrior {
