@@ -1,3 +1,5 @@
+package QUESTION;
+
 import java.util.*;
 
 public class Kth_number {
