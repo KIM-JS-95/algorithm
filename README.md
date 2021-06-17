@@ -25,7 +25,6 @@
     * 게임 개발: ([Java 코드](https://gist.github.com/KIM-JS-95/1b8abb800dbbe461567621cad166e37f))
 
 #### 5장 DFS/BFS
-
 * 이론
 
   -  * 탐색 알고리즘 DFS/BFS
@@ -42,24 +41,35 @@
     * 음료수 얼려 먹기: ([Java 코드](https://gist.github.com/KIM-JS-95/4f3ce8da48250d8f18f19c7bed57ecfa))
     * 미로 탈출: ([Java 코드](https://gist.github.com/KIM-JS-95/d9d96d7a9c9d13660af0d9652c7c83cd))
 
-#### 6장 정렬
+[comment]: <> (#### 6장 정렬)
 
-* 이론
-  -  * 기준에 따라서 데이터를 정렬
-  - * 선택 정렬: ([Java 코드](/6/1.java))
-  - * 스와프(Swap): ([Java 코드](/6/2.java))
-  -  * 삽입 정렬: ([Java 코드](/6/3.java))
-  -  * 퀵 정렬: ([Java 코드](/6/4.java))
-  -  * 파이썬의 장점을 살린 퀵 정렬: [Python 3.7 코드](/6/5.py)
-  -  * 계수 정렬: ([Java 코드](/6/6.java))
-  -  * 정렬 라이브러리 기본 예제: ( [Java 코드](/6/7.java))
-  -  * 정렬 라이브러리 키(Key) 기준 정렬 예제: ([Java 코드](/6/9.java))
-* 실전
-    * 위에서 아래로: ([Java 코드](https://gist.github.com/KIM-JS-95/3b90b8af5ed69cbc4cec49c7a51145a5))
-    * 성적이 낮은 순서대로 학생 출력하기: ([Java 코드](https://gist.github.com/KIM-JS-95/9e5ce55e9d581c1342c453da5819eec7))
-  -  * 두 배열의 원소 교체: ([Java 코드](/6/12.java))
+[comment]: <> (* 이론)
 
-----------------------------------------------------------------------------------------------------
+[comment]: <> (  -  * 기준에 따라서 데이터를 정렬)
+
+[comment]: <> (  - * 선택 정렬: &#40;[Java 코드]&#40;/6/1.java&#41;&#41;)
+
+[comment]: <> (  - * 스와프&#40;Swap&#41;: &#40;[Java 코드]&#40;/6/2.java&#41;&#41;)
+
+[comment]: <> (  -  * 삽입 정렬: &#40;[Java 코드]&#40;/6/3.java&#41;&#41;)
+
+[comment]: <> (  -  * 퀵 정렬: &#40;[Java 코드]&#40;/6/4.java&#41;&#41;)
+
+[comment]: <> (  -  * 파이썬의 장점을 살린 퀵 정렬: [Python 3.7 코드]&#40;/6/5.py&#41;)
+
+[comment]: <> (  -  * 계수 정렬: &#40;[Java 코드]&#40;/6/6.java&#41;&#41;)
+
+[comment]: <> (  -  * 정렬 라이브러리 기본 예제: &#40; [Java 코드]&#40;/6/7.java&#41;&#41;)
+
+[comment]: <> (  -  * 정렬 라이브러리 키&#40;Key&#41; 기준 정렬 예제: &#40;[Java 코드]&#40;/6/9.java&#41;&#41;)
+
+[comment]: <> (* 실전)
+
+[comment]: <> (    * 위에서 아래로: &#40;[Java 코드]&#40;https://gist.github.com/KIM-JS-95/3b90b8af5ed69cbc4cec49c7a51145a5&#41;&#41;)
+
+[comment]: <> (    * 성적이 낮은 순서대로 학생 출력하기: &#40;[Java 코드]&#40;https://gist.github.com/KIM-JS-95/9e5ce55e9d581c1342c453da5819eec7&#41;&#41;)
+
+[comment]: <> (  -  * 두 배열의 원소 교체: &#40;[Java 코드]&#40;/6/12.java&#41;&#41;)
 
 [comment]: <> (#### 7장 이진 탐색)
 
