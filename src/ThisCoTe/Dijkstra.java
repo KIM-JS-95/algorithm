@@ -85,8 +85,10 @@ public class Dijkstra {
             Node node1 = pq.poll();
             int dist = node1.getDistance(); // 현재 노드까지의 비용
             int now = node1.getIndex(); // 현재 노드
+
             // 현재 노드가 이미 처리된 적이 있는 노드라면 무시
             if (d[now] < dist) continue;
+
             // 현재 노드와 연결된 다른 인접한 노드들을 확인
             for (int i = 0; i < graph.get(now).size(); i++) {
                 int cost = d[now] + graph.get(now).get(i).getDistance();

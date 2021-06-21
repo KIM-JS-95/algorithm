@@ -2,9 +2,9 @@ package ThisCoTe;
 
 // Construct a given currency and obtain a minimum number of coins to make the target currency.
 
-// ex)  total = 7
-//      coin = {2,3,7}
-//      return = 2
+// ex)  N = 2 / M = 15
+//      coin = {2,3}
+//      return = 5
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -32,11 +32,14 @@ public class EfficientCoin {
             }
         }
 
-        if (d[m] == 1001) {
-            System.out.print(-1);
-        } else {
-            System.out.print(d[m]);
-
+        for(int val : d){
+            System.out.print(val +" ");
         }
+//        if (d[m] == 1001) {
+//            System.out.print(-1);
+//        } else {
+//            System.out.print(d[m]);
+//
+//        }
     }
 }
