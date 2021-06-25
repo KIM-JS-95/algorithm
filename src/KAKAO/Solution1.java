@@ -1,39 +1,21 @@
 package KAKAO;
 
 
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.stream.Stream;
 
 public class Solution1 {
     public static void main(String[] args){
-        int[] gift={4, 5, 3, 2, 1};
-        int[] want=	{2, 4, 4, 5, 1};
-        System.out.println(solution(gift,want));
 
+        int[] arr ={1,2,3,4,5,6,7,8,9,10};
+
+
+        int sum1 = Arrays.stream(arr).filter(i->i%2==0).sum();
+        int sum2 = Arrays.stream(arr).filter(i->i%2!=0).sum();
+        int total = Arrays.stream(arr).sum();
+        System.out.println(sum1+" "+ sum2+" "+total);
 
     }
 
-
-    public static int solution(int[] gift, int[] want){
-        int answer=0;
-        for(int i=0; i<gift.length; i++){
-            for(int j=0; j<want.length; j++){
-                if(gift[i]==want[j]){
-                    int temp =gift[i];
-                    gift[i] = gift[j];
-                    gift[j] = temp;
-                }
-            }
-        }
-        for(int i=0; i<gift.length; i++){
-           if(gift[i]!=want[i]){
-               answer++;
-           }
-        }
-
-//        for(int i=0; i<gift.length; i++){
-//            System.out.println(gift[i]);
-//        }
-
-
-        return answer;
-    }
 }
