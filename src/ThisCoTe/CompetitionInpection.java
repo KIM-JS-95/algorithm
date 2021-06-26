@@ -62,8 +62,8 @@ public class CompetitionInpection {
             }
         }
 
-        Collections.sort(virustests);
-        Queue<Virustest> q = new LinkedList<Virustest>();
+        //Collections.sort(virustests);
+        Queue<Virustest> q = new PriorityQueue<>();
 
         for(int i = 0; i< virustests.size(); i++){
             q.add(virustests.get(i));
