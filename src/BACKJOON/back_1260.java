@@ -5,66 +5,65 @@ import java.util.*;
 
 public class back_1260 {
 
-    static int[][] arr;
-    static boolean[] visit;
-    static int N;
-    static int M;
-    static int V;
+    //함수에서 사용할 변수들
+    static int[][] check; //간선 연결상태
+    static boolean[] checked; //확인 여부
+    static int n; //정점개수
+    static int m; //간선개수
+    static int start; //시작정점
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br1.readLine());
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        m = sc.nextInt();
+        start = sc.nextInt();
 
-        N = Integer.parseInt(st.nextToken()); //node
-        M = Integer.parseInt(st.nextToken()); // edge
-        V = Integer.parseInt(st.nextToken()); //start
+        check = new int[1001][1001]; //좌표를 그대로 받아들이기 위해 +1해서 선언
+        checked = new boolean[1001]; //초기값 False
 
-        arr = new int[1001][1001];
-        visit = new boolean[1001];
-
-        for (int i = 0; i < M; i++) {
-            Scanner sc = new Scanner(System.in);
+        //간선 연결상태 저장
+        for(int i = 0; i < m; i++) {
             int x = sc.nextInt();
             int y = sc.nextInt();
 
-            arr[x][y] = arr[y][x]=1;
+            check[x][y] = check[y][x] = 1;
         }
-        dfs(V);
 
-        visit = new boolean[1001];
-        System.out.println();
+        dfs(start); //dfs호출
 
-        bfs();
+        checked = new boolean[1001]; //확인상태 초기화
+        System.out.println(); //줄바꿈
+
+        bfs(); //bfs호출
     }
 
-    public static void dfs(int V) {
+    //시작점을 변수로 받아 확인, 출력 후 다음 연결점을 찾아 시작점을 변경하여 재호출
+    public static void dfs(int i) {
+        checked[i] = true;
+        System.out.print(i + " ");
 
-        visit[V] = true;
-        System.out.print(V + " ");
-
-        for(int i=1; i<=N; i++){
-            if(arr[V][i] ==1 && visit[i]== false){
-                dfs(i);
+        for(int j = 1; j <= n; j++) {
+            if(check[i][j] == 1 && checked[j] == false) {
+                dfs(j);
             }
         }
     }
 
     public static void bfs() {
-        Queue<Integer>  queue = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<Integer>();
+        queue.offer(start); //시작점도 Queue에 넣어야 함
+        checked[start] = true;
+        System.out.print(start + " ");
 
-        queue.offer(V);
-        visit[V] = true;
-        System.out.print(V + " ");
-
-        while(!queue.isEmpty()){
+        //Queue가 빌 때까지 반복. 방문 정점은 확인, 출력 후 Queue에 넣어 순서대로 확인
+        while(!queue.isEmpty()) {
             int temp = queue.poll();
 
-            for(int i=1; i<=N; i++){
-                if(arr[temp][i]==1 && visit[i]==false){
-                    queue.offer(i);
-                    visit[i]=true;
-
-                    System.out.print(i + " ");
+            for(int j = 1; j <= n; j++) {
+                if(check[temp][j] == 1 && checked[j] == false) {
+                    queue.offer(j);
+                    checked[j] = true;
+                    System.out.print(j + " ");
                 }
             }
         }

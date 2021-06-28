@@ -27,6 +27,7 @@ class Node implements Comparable<Node> {
         }
         return 1;
     }
+
 }
 
 public class Dijkstra {
