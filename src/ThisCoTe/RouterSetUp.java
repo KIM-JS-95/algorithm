@@ -28,6 +28,7 @@ static int n,c;
     public static int binary(ArrayList<Integer> arr , int start, int end, int result) {
         while (start <= end) {
             int mid = (start + end) / 2;
+            System.out.println(mid);
             int router = arr.get(0);
             int cnt = 1;
             for (int i = 1; i < arr.size(); i++) {
