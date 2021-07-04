@@ -31,10 +31,15 @@ public class Q34 {
             }
 
         }
-        int maxValue = 0;
-        for (int i = 0; i < n; i++) {
-            maxValue = Math.max(maxValue, dp[i]);
+
+        for (int val : dp) {
+            System.out.println(val +" ");
         }
-        System.out.println(n - maxValue);
+
+//        int maxValue = 0;
+//        for (int i = 0; i < n; i++) {
+//            maxValue = Math.max(maxValue, dp[i]);
+//        }
+//        System.out.println(n - maxValue);
     }
 }
