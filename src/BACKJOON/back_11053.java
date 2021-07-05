@@ -3,40 +3,59 @@ package BACKJOON;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class back_11053 {
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int N = Integer.parseInt(br.readLine());
+        int n = Integer.parseInt(br.readLine());
+        int arr[] = new int[n];
+        int d[] = new int[n];
+        StringTokenizer st = new StringTokenizer(br.readLine()," ");
 
-        int[] seq = new int[N];
-        int[] LIS = new int[N];
+//        for (int i = 0; i < n; i++) {
+//            arr[i] = Integer.parseInt(st.nextToken());
+//        }
+//
+//        Arrays.fill(d,1);
+//        for(int i=1; i<n; i++){
+//            for(int j=0; j<i; j++){
+//                if(arr[j]<arr[i] && d[i] <= d[j])
+//                d[i] = d[j]+1;
+//            }
+//        }
+//
+//        int max = 0;
+//        for(int i: d){
+//            max = Math.max(i,max);
+//        }
+//
+//        System.out.println(max);
 
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-
-        for (int i = 0; i < N; i++) {
-            seq[i] = Integer.parseInt(st.nextToken());
+        List<Integer> list = new ArrayList<>();
+        list.add(0);
+        for (int i = 0; i < n; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
         }
+        for(int i = 0 ; i < n; i++) {
+            int value = arr[i];
+            if(value > list.get(list.size() - 1)) list.add(value);
+            else{
+                int left = 0;
+                int right = list.size() - 1;
 
-        LIS[0] = seq[0];
-        int idx = 1;
-
-        for(int i = 1; i < N; i++) {
-            if(LIS[idx - 1] < seq[i]) {
-                LIS[idx++] = seq[i];
-            }
-            else if(LIS[0] > seq[i]) {
-                LIS[0] = seq[i];
-            }
-            else {
-                int temp = Arrays.binarySearch(LIS, 0, idx, seq[i]);
-                LIS[temp < 0 ? -(temp + 1) : temp] = seq[i];
+                while(left < right){
+                    int mid = (left + right) >> 1;
+                    if(list.get(mid) >= value){
+                        right = mid;
+                    }else{
+                        left = mid + 1;
+                    }
+                }
+                list.set(right, value);
             }
         }
-        System.out.println(idx);
+        System.out.println(list.size() - 1);
     }
 }
