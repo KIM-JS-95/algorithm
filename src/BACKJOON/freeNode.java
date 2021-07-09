@@ -1,69 +1,36 @@
 package BACKJOON;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
+import java.util.*;
+import java.util.stream.Collectors;
 
+class Node{
+    String name;
+    int num;
+
+    public Node(String name, int num) {
+        this.name = name;
+        this.num = num;
+    }
+}
 public class freeNode {
-    public static void main(String args[]) throws IOException {
+    public static void main(String args[]) {
 
-       String s = "abcxyasdfasdfxyabc";
-        solution(s);
+        String[] s = {"mislav", "stanko", "mislav", "ana"};
+        String[] com = {"stanko", "ana", "mislav"};
+        solution(s, com);
     }
 
-    public static String[] solution(String s) {
-        String[] answer = {};
-        List<String> list = new ArrayList<String>();
-
-        while(true) {
-            String tempStr = seqCompare(s,list);
-            if( "1".equals(tempStr) ){
-                list.add(s);
-                break;
-            }
-            s = tempStr;
-        }
-
-        if(list.contains("")) {
-            list.remove("");
-            answer = new String[ list.size() * 2];
-
-            for(int i=0; i<list.size(); i++) {
-                answer[i] = list.get(i);
-                answer[answer.length-i-1] = list.get(i);
-            }
-
-        }
-        else {
-            answer = new String[list.size() * 2 - 1];
-
-            for(int i=0; i<list.size()-1; i++) {
-                answer[i] = list.get(i);
-                answer[answer.length-i-1] = list.get(i);
-            }
-
-            answer[answer.length/2] = list.get(list.size()-1);
-
-        }
-
-//        for(String val : answer)
-//            System.out.println(val);
-
-        return answer;
-
-    }
-
-    public static String seqCompare(String s , List<String> list) {
-        int len = s.length();
-        for(int i=1; i<len && len-i>=i ; i++) {
-            if(s.substring(0,i).equals(s.substring(len-i))) {
-                list.add(s.substring(0,i));
-                return s.substring(i,len-i);
+    public static String solution(String[] participant, String[] completion) {
+        Arrays.sort(participant);
+        Arrays.sort(completion);
+        int i;
+        for(i=0; i< completion.length; i++){
+            if(!participant[i].equals(completion[i])){
+                return participant[i];
             }
         }
-
-        return "1";
+        return participant[i];
     }
 
 }
