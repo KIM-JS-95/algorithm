@@ -1,37 +1,39 @@
 package BACKJOON;
 
 
-import java.util.*;
-import java.util.stream.Collectors;
-
-class Node{
-    String name;
-    int num;
-
-    public Node(String name, int num) {
-        this.name = name;
-        this.num = num;
-    }
-}
 public class freeNode {
     public static void main(String args[]) {
 
-        String[] s = {"mislav", "stanko", "mislav", "ana"};
-        String[] com = {"stanko", "ana", "mislav"};
-        solution(s, com);
+        int n = 8;
+        int a = 4;
+        int b = 7;
+        solution(n, a, b);
     }
 
-    public static String solution(String[] participant, String[] completion) {
-        Arrays.sort(participant);
-        Arrays.sort(completion);
-        int i;
-        for(i=0; i< completion.length; i++){
-            if(!participant[i].equals(completion[i])){
-                return participant[i];
-            }
+    public static int solution(int n, int a, int b) {
+        int answer = 1;
+        int left = 0;
+        int right = 0;
+
+        if(a>b){
+            left=b;
+            right=a;
+        }else {
+            left=a;
+            right=b;
         }
-        return participant[i];
+
+        while (true) {
+            if (left % 2 != 0 && right - left == 1) {
+                break;
+            }
+            left = (left+1)/2;
+            right = (right+1)/2;
+            answer++;
+        }
+
+        System.out.println(answer);
+        return answer;
     }
 
 }
-
