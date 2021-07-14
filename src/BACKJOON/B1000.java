@@ -4,7 +4,7 @@ package BACKJOON;
 
 import java.util.Scanner;
 
-public class back_1000 {
+public class B1000 {
     @FunctionalInterface
     interface MyInterface{
         public int method(int a, int b);

@@ -3,7 +3,7 @@ package BACKJOON;
 import java.io.*;
 import java.util.*;
 
-public class back_1260 {
+public class B1260 {
 
     //함수에서 사용할 변수들
     static int[][] check; //간선 연결상태

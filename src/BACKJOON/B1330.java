@@ -2,7 +2,7 @@ package BACKJOON;
 
 import java.util.Scanner;
 
-public class back_1330 {
+public class B1330 {
     @FunctionalInterface
     interface MyInterface{
         public String method(int a, int b);
