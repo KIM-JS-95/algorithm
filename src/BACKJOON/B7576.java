@@ -9,6 +9,12 @@ class tomato {
     int x;
     int y;
 
+    public tomato(int x, int y) {
+        this.x = x;
+        this.y = y;
+
+    }
+
     public int getX() {
         return x;
     }
@@ -17,10 +23,7 @@ class tomato {
         return y;
     }
 
-    public tomato(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
+
 }
 
 public class B7576 {
@@ -92,7 +95,6 @@ public class B7576 {
             System.out.println(result);
         }
     }
-
 
 }
 
