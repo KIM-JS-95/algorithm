@@ -1,10 +1,9 @@
 package BACKJOON;
 
+import java.util.Scanner;
 
-import java.util.*;
+public class B15651 {
 
-
-public class freeNode {
     static int[] arr;
     static int N,M;
     public static void main(String[] args) {
@@ -16,11 +15,11 @@ public class freeNode {
 
         arr = new int[M];
 
-        dfs(1, 0);
+        dfs( 0);
 
     }
 
-    public static void dfs(int at, int depth) {
+    public static void dfs(int depth) {
 
         if (depth == M) {
             for (int val : arr) {
@@ -30,11 +29,10 @@ public class freeNode {
             return;
         }
 
-        for (int i = at; i <= N; i++) {
-
+        for (int i = 1; i <= N; i++) {
             arr[depth] = i;
-            dfs(i + 1, depth + 1);
-
+            dfs( depth + 1);
         }
     }
+
 }
