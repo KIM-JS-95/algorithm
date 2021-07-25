@@ -5,6 +5,7 @@ import java.util.*;
 class Node implements Comparable<Node> {
     int end;
     int weight;
+    private int distanse;
 
     Node(int end, int weight) {
         this.end = end;
