@@ -27,6 +27,13 @@ class Node10 implements Comparable<Node10> {
     }
 
 
+    public void setDistanse1(int distanse1) {
+        this.distanse1 = distanse1;
+    }
+
+    public int getDistanse1() {
+        return distanse1;
+    }
 }
 
 public class B9370 {
@@ -43,13 +50,12 @@ public class B9370 {
         int testCnt = Integer.parseInt(br.readLine());
 
         for(int i = 0 ; i < testCnt; i++){
-            // n,m,t 초기화
+
             StringTokenizer st = new StringTokenizer(br.readLine());
             vertex = Integer.parseInt(st.nextToken());
             edge = Integer.parseInt(st.nextToken());
             t = Integer.parseInt(st.nextToken());
 
-            // 그래프 배열 선언
             arr = new int[vertex + 1][vertex + 1];
             dist = new int[vertex + 1];
             for(int j = 0 ; j < arr.length; j++)
@@ -57,34 +63,34 @@ public class B9370 {
             Arrays.fill(dist, INF);
             check = new boolean[vertex + 1];
 
-            // s, g, h 초기화
+
             st = new StringTokenizer(br.readLine());
             start = Integer.parseInt(st.nextToken());
             g = Integer.parseInt(st.nextToken());
             h = Integer.parseInt(st.nextToken());
 
-            // 그래프 정보 저장
+
             for(int j = 0 ; j < edge; j++){
                 st = new StringTokenizer(br.readLine());
                 int vertex1 = Integer.parseInt(st.nextToken());
                 int vertex2 = Integer.parseInt(st.nextToken());
                 int distance = Integer.parseInt(st.nextToken());
-                // 2배의 가중치를 저장
+
                 arr[vertex1][vertex2] = arr[vertex2][vertex1] = distance * 2;
             }
-            // 2배된 값에 -1을 하여 홀수를 만든다.
+
+
             arr[h][g] = arr[g][h] = arr[h][g] - 1;
 
-            // 후보정답 list선언
             answerList = new ArrayList<>();
-            // 후보가 되는 값 추가
+
             for(int j = 0; j < t; j++)
                 answerList.add(Integer.parseInt(br.readLine()));
 
             dijkstra();
-            // 오름차순 정렬
+
             Collections.sort(answerList);
-            // 정답 출력
+
             for(int num : answerList)
                 if(dist[num] % 2 == 1) bw.write(num + " ");
             bw.write("\n");
