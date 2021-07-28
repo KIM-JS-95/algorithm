@@ -1,106 +1,92 @@
 package BACKJOON;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-
-class Road{
-    // 출발노드
-    int start;
-    // 도착노드
-    int end;
-    // 걸리는 시간
-    int cost;
-
-    public Road(int start, int end, int cost){
-        this.start = start;
-        this.end = end;
-        this.cost = cost;
-    }
-}
-
 public class B1865 {
-    static final int INF = 1000000000;
-
-    private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
-    static int n, m, w;
-    static Road[] roads;
-    static int[] dist;
+    static int n;
+    static int m;
+    static int w;
+    static int dis[];
+    static ArrayList<edge>[] road;
     public static void main(String[] args) throws IOException {
-        int testCnt = Integer.parseInt(br.readLine());
-        StringBuilder sb = new StringBuilder();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int tc = Integer.parseInt(br.readLine()); //  테스트케이스의 개수 TC (1 ≤ TC ≤ 5)
 
-        for(int i = 0 ; i < testCnt; i++){
-
+        for(int i = 0; i < tc; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            n = Integer.parseInt(st.nextToken()); //3
-            m = Integer.parseInt(st.nextToken()); //3
-            w = Integer.parseInt(st.nextToken()); //1
+            n = Integer.parseInt(st.nextToken()); // 지점의 수 N (1 ≤ N ≤ 500)
+            m = Integer.parseInt(st.nextToken()); // 도로의 개수 M (1 ≤ M ≤ 2500)
+            w = Integer.parseInt(st.nextToken()); // 웜홀의 개수 W (1 ≤ W ≤ 200)
 
-            dist = new int[n + 1];
-            roads = new Road[2 * m + w];
+            dis = new int[n+1];
+            Arrays.fill(dis, 987654321);
+            road = new ArrayList[n+1];
 
-            // roads[]의 인덱스를 나타낸다.
-            int index = 0;
+            for(int j = 0; j < n+1; j++) {
+                road[j] = new ArrayList<>();
+            }
 
-            for(int j = 0 ; j < m + w; j++){
+            for(int j = 0; j < m; j++) {
                 st = new StringTokenizer(br.readLine());
-                int start = Integer.parseInt(st.nextToken());
-                int end = Integer.parseInt(st.nextToken());
-                int cost = Integer.parseInt(st.nextToken());
-
-                // 무방향이기 때문에 반대방향도 추가한다.
-                if(j < m){
-                    roads[index++] = new Road(start, end, cost);
-                    roads[index++] = new Road(end, start, cost);
-                    // 웜홀은 유방향이기 때문에 시간만 * -1 해주어서 추가한다.
-                }else{
-                    roads[index++] = new Road(start, end, cost * -1);
-                }
+                int a = Integer.parseInt(st.nextToken());
+                int b = Integer.parseInt(st.nextToken());
+                int c = Integer.parseInt(st.nextToken());
+                road[a].add(new edge(b, c));
+                road[b].add(new edge(a, c));
             }
 
-            // 음수 사이클이 있는 경우
-            if(bellmanFord())
-                sb.append("YES\n");
-                // 음수 사이클이 없는 경우
-            else
-                sb.append("NO\n");
-
-            for(int val : dist){
-                System.out.print(val + " ");
+            for(int j = 0; j < w; j++) {
+                st = new StringTokenizer(br.readLine());
+                int a = Integer.parseInt(st.nextToken());
+                int b = Integer.parseInt(st.nextToken());
+                int c = Integer.parseInt(st.nextToken());
+                road[a].add(new edge(b, -c));
             }
+
+            if(bellmanFord()) System.out.println("YES");
+            else System.out.println("NO");
+
         }
 
-        bw.write(sb.toString());
-
-        br.close();
-        bw.close();
 
     }
 
-    private static boolean bellmanFord(){
-        Arrays.fill(dist, INF);
-        dist[1] = 0;
+    static boolean bellmanFord() {
+        dis[1] = 0;
 
-        for (int i = 1; i < n; i++) {
-            // edge개수 만큼 확인을 한다.
-            for (int j = 0; j < roads.length; j++) {
-                Road road = roads[j];
-
-                if (dist[road.start] != INF && dist[road.start] + road.cost < dist[road.end]){
-                    dist[road.end] = dist[road.start] + road.cost;
+        for(int i = 1; i < n; i++) {
+            for(int j = 1; j < road.length; j++) {
+                for(edge next: road[j]) {
+                    if(dis[j] + next.time < dis[next.node]) {
+                        dis[next.node] = dis[j] + next.time;
+                    }
                 }
             }
         }
-        for(int i = 0 ; i < roads.length; i++){
-            Road road = roads[i];
 
-            if (dist[road.start] != INF && dist[road.start] + road.cost < dist[road.end])
-                return true;
+        for(int j = 1; j < road.length; j++) {
+            for(edge next: road[j]) {
+                if(dis[j] + next.time < dis[next.node]) {
+                    return true;
+                }
+            }
         }
         return false;
     }
+
+    static class edge{
+        int node; // 노드
+        int time; // 걸리는 시간
+
+        edge(int node, int time) {
+            this.node = node;
+            this.time = time;
+        }
+    }
+
 }
