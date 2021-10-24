@@ -1,9 +1,8 @@
 package programers;
 
-public class B81301 {
-}
 import java.util.*;
-class Solution {
+
+public class B81301 {
     public int solution(String s) {
         HashMap<String, Integer> map = new HashMap<>();
 

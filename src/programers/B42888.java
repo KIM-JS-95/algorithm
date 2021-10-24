@@ -1,11 +1,6 @@
 package programers;
-
-public class B42888 {
-}
-
-
 import java.util.*;
-class Solution {
+public class B42888 {
     public String[] solution(String[] record) {
         List<String> list = new ArrayList<String>();
         Map<String, String> map = new HashMap<String, String>();
@@ -40,3 +35,4 @@ class Solution {
         return answer;
     }
 }
+

@@ -1,33 +1,8 @@
 package programers;
 
-public class B81302 {
-}
-
-
-// bfs
-// Matrix
 import java.util.*;
+public class B81302 {
 
-class Node{
-    private int x;
-    private int y;
-
-    public Node(int x, int y){
-        this.x=x;
-        this.y=y;
-    }
-
-    public int getX(){
-        return this.x;
-    }
-
-    public int getY(){
-        return this.y;
-    }
-}
-
-
-class Solution {
     public static int[] dx={0,1,0,-1};
     public static int[] dy={-1,0,1,0};
 
@@ -92,4 +67,27 @@ class Solution {
         return true;
     }
 
+}
+
+
+// bfs
+// Matrix
+
+
+class Node{
+    private int x;
+    private int y;
+
+    public Node(int x, int y){
+        this.x=x;
+        this.y=y;
+    }
+
+    public int getX(){
+        return this.x;
+    }
+
+    public int getY(){
+        return this.y;
+    }
 }

@@ -1,11 +1,7 @@
 package programers;
-
-public class B1835 {
-}
-
 import java.util.*;
+public class B1835 {
 
-class Solution {
     static String[] d;
     static HashMap<Character,Integer> map ;
     static boolean[] visited;
@@ -63,4 +59,7 @@ class Solution {
         }
         return true;
     }
+
 }
+
+

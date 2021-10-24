@@ -1,11 +1,9 @@
 package programers;
 
-public class B42626 {
-}
-
 
 import java.util.*;
-class Solution {
+public class B42626 {
+
     public int solution(int[] scoville, int K) {
         PriorityQueue<Integer> Q = new PriorityQueue<Integer>();
         int answer = 0;
@@ -31,3 +29,4 @@ class Solution {
         return answer;
     }
 }
+

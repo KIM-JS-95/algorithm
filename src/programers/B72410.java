@@ -1,10 +1,6 @@
 package programers;
 
 public class B72410 {
-}
-
-
-class Solution {
     public String solution(String new_id) {
 
         String answer = new_id.toLowerCase();
@@ -34,3 +30,5 @@ class Solution {
         return answer;
     }
 }
+
+
