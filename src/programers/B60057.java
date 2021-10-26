@@ -19,11 +19,6 @@ public class B60057 {
 
                 else{
                     com +=(cnt>=2) ? cnt + prev : prev;
-                    sub = "";
-
-                    for (int k = j; k < j + step; k++) {
-                        if (k < s.length()) sub += s.charAt(k);
-                    }
                     prev = sub; // 다시 상태 초기화
                     cnt = 1;
                 }
