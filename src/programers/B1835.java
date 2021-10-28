@@ -7,8 +7,13 @@ public class B1835 {
     static boolean[] visited;
     static int[] ch;
     static int answer;
+    static int cnt =0;
 
-    public int solution(int n, String[] data) {
+    public static void main(String[] args){
+        String[] data = {"N~F=0", "R~T>2"};
+        solution(2, data);
+    }
+    public static int solution(int n, String[] data) {
         d = data;
         map = new HashMap<>();
         visited = new boolean[8];
@@ -27,6 +32,7 @@ public class B1835 {
     }
 
     public static void dfs(int idx){
+
         if(idx == 8){
             if(check()) answer++;
         }
@@ -35,6 +41,7 @@ public class B1835 {
                 if(!visited[i]){
                     visited[i] = true;
                     ch[idx] = i;
+
                     dfs(idx + 1);
                     visited[i] = false;
                 }
@@ -47,6 +54,16 @@ public class B1835 {
     public static boolean check(){
         int a,b,res;
         char op;
+
+
+        cnt++;
+            System.out.print(cnt + "= ");
+            for (int val : ch) {
+                System.out.print(val + " ");
+            }
+            System.out.println();
+
+
         for(String s : d){
             a = ch[map.get(s.charAt(0))];
             b = ch[map.get(s.charAt(2))];
