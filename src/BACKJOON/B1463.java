@@ -17,7 +17,7 @@ public class B1463 {
         System.out.println(recur(N));
 
         for(int val : dp){
-            System.out.print(val + "");
+            System.out.print(val + " ");
         }
 
     }
