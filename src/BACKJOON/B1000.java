@@ -5,11 +5,6 @@ package BACKJOON;
 import java.util.Scanner;
 
 public class B1000 {
-    @FunctionalInterface
-    interface MyInterface{
-        public int method(int a, int b);
-
-    }
 
         public static void main(String[] args){
 //            Scanner sc = new Scanner(System.in);
@@ -23,13 +18,7 @@ public class B1000 {
 //            int c=fi.method(a,b);
 //
 //            System.out.println(c);
-
-            boolean flag1 = true;
-            boolean flag2 = true;
-
-            flag1=!flag1;
-            flag2=false;
-            System.out.println(flag1);
-            System.out.println(flag2);
+        String s = "A";
+            System.out.println("hat".hashCode());
         }
 }
