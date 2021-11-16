@@ -19,15 +19,9 @@ public class B2748 {
 
         arr[0] = 0;
         arr[1] = 1;
-        Fib(N);
+       System.out.println(Fib(N));
 
-        for(int i=0; i<arr.length; i++){
-//            if(arr[i] >=1000000007){
-//                System.out.println(i);
-//                break;
-//            }
-            System.out.println(i + " = " +arr[i]);
-        }
+
     }
 
     public static long Fib(int N) {
