@@ -37,7 +37,7 @@ class Move implements Comparable<Move> {
     }
 }
 
-public class Q39 {
+public class 화성탐사 {
     public static int[] dx = {-1, 0, 1, 0};
     public static int[] dy = {0, 1, 0, -1};
     public static int[][] graph = new int[125][125];
@@ -67,6 +67,7 @@ public class Q39 {
 
             int x = 0;
             int y = 0;
+
             PriorityQueue<Move> q = new PriorityQueue<>();
             q.offer(new Move(0, 0, graph[x][y]));
             d[x][y] = graph[x][y];

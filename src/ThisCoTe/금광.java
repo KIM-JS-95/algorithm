@@ -48,9 +48,11 @@ public class 금광 {
                 else leftDown = dp[i + 1][j - 1];
 
                 left = dp[i][j - 1];
+
                 dp[i][j] = dp[i][j] + Math.max(leftUp, Math.max(leftDown, left));
             }
         }
+
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {

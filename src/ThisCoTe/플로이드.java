@@ -3,7 +3,8 @@ package ThisCoTe;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q38 {
+public class 플로이드 {
+
     public static final int INF = (int) 1e9;
     public static int n, m;
     public static int[][] graph = new int[101][101];
@@ -27,7 +28,8 @@ public class Q38 {
         for (int i = 0; i < m; i++) {
             int a = sc.nextInt();
             int b = sc.nextInt();
-            graph[a][b] = 1;
+            int c = sc.nextInt();
+            if (c < graph[a][b]) graph[a][b] = c;
         }
 
         for (int k = 1; k <= n; k++) {
@@ -38,20 +40,17 @@ public class Q38 {
             }
         }
 
-        int result = 0;
-        // 각 학생을 번호에 따라 한 명씩 확인하며 도달 가능한지 체크
-        for (int i = 1; i <= n; i++) {
-            int cnt = 0;
-            for (int j = 1; j <= n; j++) {
-                if (graph[i][j] != INF || graph[j][i] != INF) {
-                    cnt += 1;
+        for (int a = 1; a <= n; a++) {
+            for (int b = 1; b <= n; b++) {
+                if (graph[a][b] == INF) {
+                    System.out.printf("%3d",0);
+                }
+                else {
+                    System.out.printf("%3d",graph[a][b]);
                 }
             }
-            if (cnt == n) {
-                result += 1;
-            }
+            System.out.println();
         }
-        System.out.println(result);
-    }
 
+    }
 }
